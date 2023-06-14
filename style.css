@@ -1,0 +1,162 @@
+* {
+    /* border: 1px solid red; */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+button {
+    font-weight: 800;
+    padding: 8px 24px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+}
+
+.footer,
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 0 250px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.header-hero-text {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-links li {
+    margin: 0 18px;
+}
+
+.header-links,
+.header-secondary-text,
+button {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.header-main {
+    width: 500px;
+    margin-right: 40px;
+}
+
+.header-secondary-text {
+    margin: 18px 0;
+}
+
+.header-img img {
+    width: 500px;
+    height: auto;
+}
+
+.section-1 {
+    padding: 50px 250px;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 24px;
+}
+
+.info-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.info {
+    display: flex;
+    flex-basis: 150px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info-box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    margin: 18px 0;
+}
+
+.quote {
+    padding: 96px 330px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.section-3 {
+    padding: 60px 250px;
+}
+
+.signup {
+    background-color: #3882F6;
+    padding: 30px 125px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-description {
+    color: #E5E7EB;
+}
+
+.signup-title {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.signup-text {
+    font-size: 12px;
+}
+
+.signup button {
+    border: 2px solid #E5E7EB;
+}
+
+.footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
